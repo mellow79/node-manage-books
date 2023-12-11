@@ -1,1 +1,11 @@
-This is a example of a node.js API that manages books
+This is a example of a node.js API that manages books 
+
+The data is in json format and self contained in the code.
+
+You can use tools like cURL, Postman, or a web browser to interact with your API. Here are some examples:
+
+Get all items: GET http://localhost:3000/books
+Get a specific item by ID: GET http://localhost:3000/books/{jd}
+Create a new item: POST http://localhost:3000/books with JSON payload
+Update an item by ID: PUT http://localhost:3000/books/{id} with JSON payload
+Delete an item by ID: DELETE http://localhost:3000/books/{id}
