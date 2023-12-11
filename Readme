@@ -9,3 +9,5 @@ Get a specific item by ID: GET http://localhost:3000/books/{jd}
 Create a new item: POST http://localhost:3000/books with JSON payload
 Update an item by ID: PUT http://localhost:3000/books/{id} with JSON payload
 Delete an item by ID: DELETE http://localhost:3000/books/{id}
+
+REMEMBER TO RUN npm install
